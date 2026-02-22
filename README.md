@@ -104,6 +104,13 @@ tests/
 
 ---
 
+## 👥 Contributors
+
+| Name | GitHub | Role |
+|------|--------|------|
+| Gustavo Muratalla | [@Teku-Guy](https://github.com/Teku-Guy) | Repo Creator |
+| Sean | [@Sage272](https://github.com/Sage272) | Solution Author |
+
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Think there's a bug or edge case? Open an issue!
