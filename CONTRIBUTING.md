@@ -1,63 +1,21 @@
-# 🤝 Contributing Guide
+# 🤝 Contributing
 
-Thanks for contributing! Please follow this workflow to keep things clean and consistent.
+Thanks for contributing to this ICPC Demo repo! Here's how to get involved.
 
-## 🌿 Branching
+## Submitting a Solution
 
-Never commit directly to `main`. Always create a new branch for your work.
+1. Fork this repo and create a branch: `git checkout -b solution/your-name`
+2. Add or improve the solution in `src/solution.py`
+3. Make sure your solution passes the tests in `tests/`
+4. Update the README status from 🚧 to ✅ if you completed it
+5. Open a Pull Request describing your approach
 
-```bash
-# Make sure you're on main and up to date
-git checkout main
-git pull origin main
+## Adding Test Cases
 
-# Create a new branch
-git checkout -b feature/your-feature-name
-```
+- Add inputs to `tests/sample.txt` and expected outputs to `tests/expected.txt`
+- One test case per block, clearly commented
 
-**Branch naming conventions:**
-- `feature/` — for new features (e.g. `feature/login-page`)
-- `fix/` — for bug fixes (e.g. `fix/broken-navbar`)
-- `docs/` — for documentation changes (e.g. `docs/update-readme`)
+## Questions?
 
-## ✏️ Making Changes
+Reach out to the club lead or open an issue.
 
-Make your changes, then stage and commit them:
-
-```bash
-# Stage your changes
-git add .
-
-# Commit with a clear message
-git commit -m "Add login page with form validation"
-```
-
-**Good commit messages:**
-- ✅ `Add user authentication flow`
-- ✅ `Fix broken link in navbar`
-
-**Bad commit messages:**
-- ❌ `fixed stuff`
-- ❌ `changes`
-
-## 📤 Pushing & Opening a Pull Request
-
-```bash
-# Push your branch
-git push origin feature/your-feature-name
-```
-
-Then go to the repo on GitHub and click **"Compare & pull request"**.
-
-- Give your PR a clear title
-- Fill out the pull request template
-- Request a review from a teammate
-- Wait for approval before merging
-
-## 🐛 Reporting Issues
-
-Use the **Issues** tab to report bugs or suggest features. Please use the provided templates so we have all the info we need.
-
-## ❓ Questions
-
-If you're stuck, leave a comment on the relevant issue or PR and a teammate will help you out.
